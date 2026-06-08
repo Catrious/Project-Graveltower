@@ -8,3 +8,4 @@ A PC <br>
 An rooted Android phone <br>
 QEMU (probably) <br>
 GNU Arm Embedded Toolchain <br>
+aarch64-none-elf-gcc <br>
