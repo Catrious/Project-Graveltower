@@ -7,3 +7,4 @@ iBoot (don't know about that yet) <Br>
 A PC <br>
 An rooted Android phone <br>
 QEMU (probably) <br>
+GNU Arm Embedded Toolchain <br>
