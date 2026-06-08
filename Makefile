@@ -2,7 +2,7 @@
 CC = aarch64-none-elf-gcc
 CFLAGS = -ffreestanding -nostdinc -mcpu=cortex-a57
 
-all: graveltower.elf
+all: graveltower.elf: boot.o hypervisor.o vector_table.o
 
 graveltower.elf: boot.o hypervisor.o
 	$(CC) $(CFLAGS) -T linker.ld -o $@ $^
